@@ -17,6 +17,7 @@ This is what is generated based on the prompts and answers given above
 ![screenshot of SVG](./assets/images/screenshot-svg.png)
 
 Video Walkthrough: https://youtu.be/qZcSUDughQI
+
 GitHub Repo URL: https://github.com/TimeBytes/SVG-Logo-Generator
 
 ## Credit
