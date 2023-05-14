@@ -1,0 +1,27 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "Creates a svg file after user prompts are entered",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeBytes/SVG-Logo-Generator.git"
+  },
+  "author": "TimeBytes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimeBytes/SVG-Logo-Generator/issues"
+  },
+  "homepage": "https://github.com/TimeBytes/SVG-Logo-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^24.9.0"
+  }
+}
