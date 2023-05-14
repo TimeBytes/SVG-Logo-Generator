@@ -1,3 +1,3 @@
 <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="150" cy="100" r="100" fill="#6CC6F9"/><text x="150" y="120" font-size="60" text-anchor="middle" fill="black">SVG</text>
+    <polygon points="150 0 0 200 300 200" fill="#6CC6F9"/><text x="150" y="150" font-size="60" text-anchor="middle" fill="black">SVG</text>
     </svg>
