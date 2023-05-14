@@ -1,7 +1,9 @@
+// importing filesystem, inquirer and classes from shapes.js
 const fs = require("fs");
 const inquirer = require("inquirer");
 const { Triangle, Circle, Square } = require("./lib/shapes");
 
+//using inquirer to prompt the user for input
 inquirer
   .prompt([
     {
@@ -28,7 +30,9 @@ inquirer
     },
   ])
   .then((data) => {
+    // calls getShape function and assigns the returned string into generatedSVG
     let generatedSVG = getShape(data);
+    // template for the svg file
     let template = `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
     ${generatedSVG}
     </svg>`;
@@ -38,6 +42,7 @@ inquirer
     });
   });
 
+//get shape function, depending on the user input different class constructor is called and returned
 function getShape(data) {
   switch (data.logoShape) {
     case "triangle":
